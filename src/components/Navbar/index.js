@@ -64,8 +64,18 @@ const Navbar = ({toggle}) => {
                             >Discover</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="signup">Sign Up</NavLinks>
+                            <NavLinks to="infocarousel"
+                             smooth={true}
+                             duration={500}
+                             spy={true}
+                             exact='true'
+                             offset={-80}
+                            >InfoCarousel</NavLinks>
                         </NavItem>
+                        
+                        {/* <NavItem>
+                            <NavLinks to="signup">Sign Up</NavLinks>
+                        </NavItem> */}
                     </NavMenu>
                     <NavBtn>
                         <NavBtnLink to='/signin'>Sign In</NavBtnLink>

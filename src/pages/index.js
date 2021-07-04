@@ -7,6 +7,7 @@ import SideBar from "../components/Sidebar"
 import Footer from '../components/Footer'
 import Services from "../components/Services";
 import Discover from "../components/InfoSection2";
+import InfoCarousel from "../components/InfoCarousel";
 
 const Home = () => {
     
@@ -24,6 +25,7 @@ const Home = () => {
         <InfoSection {...homeObjOne}/>
         <Services/>
         <Discover {...homeObjTwo} />
+        <InfoCarousel/>
         <Footer/>
     </> );
 }
